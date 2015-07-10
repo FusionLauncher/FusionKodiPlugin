@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.fusionlauncher" name="Fusion Launcher" version="0.1.0" provider-name="Project Fusion">
+<addon id="plugin.program.fusionlauncher" name="Fusion Launcher" version="0.1.0" provider-name="Project Fusion">
 
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
