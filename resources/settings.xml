@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+<category  label="32033">
+        <setting label="32033"  type="file" id="file" value="path_to_file" />
+</category>
+
+</settings>
