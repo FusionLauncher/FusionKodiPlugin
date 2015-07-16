@@ -23,9 +23,8 @@ fusionCLI = fusionDir + "FusionCLI"
 
 
 def launchGame(gameID):
-        param = '--launch ' + gameID
         xbmcgui.Dialog().ok(addonname, param, fusionCLI, fusionDir);
-        subprocess.Popen([fusionCLI, param],cwd=fusionDir, shell=True);
+        subprocess.Popen([fusionCLI, '--launch', gameID], cwd=fusionDir, shell=True)
 
 def parameters_string_to_dict(parameters):
     paramDict = {}
@@ -40,8 +39,7 @@ def parameters_string_to_dict(parameters):
 def showAllGames():
         global thisPlugin
         dataFile = ""
-        param = '--allGames'
-        cli =  subprocess.Popen([fusionCLI, param],cwd=fusionDir, shell=True, stdout=subprocess.PIPE)
+        cli =  subprocess.Popen([fusionCLI, '--allGames'],cwd=fusionDir, shell=True, stdout=subprocess.PIPE)
         while True:
           line = cli.stdout.readline()
           if len(line)>=1:
