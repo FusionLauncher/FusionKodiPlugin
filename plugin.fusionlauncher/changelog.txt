@@ -3,3 +3,5 @@
 0.1.3:
 	Add: Some German Translation
 	Add: Simple Error-Handling
+0.1.4:
+	Fix: Detecting FusionCLI-Executable on Windows
