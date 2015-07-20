@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.fusionlauncher" name="Fusion Launcher" version="0.1.2" provider-name="Project Fusion">
+<addon id="plugin.fusionlauncher" name="Fusion Launcher" version="0.1.3" provider-name="Project Fusion">
 
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,7 +11,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary lang="en">This Add-On connect Kodi with the FusionLauncher CLI</summary>
-    <description lang="en">comming soon...</description>
+    <description lang="en">With this Add-On, you are Able to launch Games from various Plattforms directly from Kodi. To do so, a working installation of FusionLauncher with CLI is required. See http://thenewwaytoplay.com/ for more Infos.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
