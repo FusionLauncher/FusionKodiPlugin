@@ -24,6 +24,9 @@ fusionCLI = fusionDir + "FusionCLI"
 
 currentOS = platform.system()
 
+if(currentOS == "Windows"):
+	fusionCLI += ".exe"
+
 if(not os.path.isfile(fusionCLI)):
     xbmcgui.Dialog().notification('Error!', 'Could not find FusionCLI-Executable. Please edit Settings!', xbmcgui.NOTIFICATION_ERROR) 
     exit()
