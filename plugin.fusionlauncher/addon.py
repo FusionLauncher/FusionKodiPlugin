@@ -10,7 +10,7 @@ import urllib
 import urllib2
 import subprocess
 import platform
-
+import os.path
 
 # magic; id of this plugin - cast to integer
 thisPlugin = int(sys.argv[1])
@@ -24,6 +24,9 @@ fusionCLI = fusionDir + "FusionCLI"
 
 currentOS = platform.system()
 
+if(not os.path.isfile(fusionCLI)):
+    xbmcgui.Dialog().notification('Error!', 'Could not find FusionCLI-Executable. Please edit Settings!', xbmcgui.NOTIFICATION_ERROR) 
+    exit()
 
 def launchGame(gameID):
         if(currentOS == "Windows"):
@@ -56,6 +59,11 @@ def showAllGames():
                         dataFile += line.rstrip()
                 else:
                         break
+
+
+        if len(dataFile)<=0:
+            xbmcgui.Dialog().notification('Error!', 'Could not get Data from FusionCLI', xbmcgui.NOTIFICATION_ERROR) 
+            exit()
 
         data = json.loads(dataFile);
 

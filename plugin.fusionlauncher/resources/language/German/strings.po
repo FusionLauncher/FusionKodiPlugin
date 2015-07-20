@@ -18,12 +18,12 @@ msgstr ""
 
 msgctxt "#30000"
 msgid "FusionCLI-Folder"
-msgstr "FusionCLI-Folder"
+msgstr "FusionCLI-Ordner"
 
 msgctxt "#30001"
-msgstr "Stop Music when launching Game"
-msgid "Stop Music when launching Game"
+msgid "Mute when launching Game"
+msgstr "Musik anhalten, wenn Spiel gestartet wird"
 
 msgctxt "#30002"
-msgstr "General"
 msgid "General"
+msgstr "Allgemein"

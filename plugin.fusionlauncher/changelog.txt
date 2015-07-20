@@ -1,2 +1,5 @@
 0.1.2:
     Added Labels for Settings, English Translation
+0.1.3:
+	Add: Some German Translation
+	Add: Simple Error-Handling
