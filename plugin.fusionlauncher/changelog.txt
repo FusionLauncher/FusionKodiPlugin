@@ -1,0 +1,2 @@
+0.1.2:
+    Added Labels for Settings, English Translation
